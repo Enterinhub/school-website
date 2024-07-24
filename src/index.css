@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+.container {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+nav a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.home {
+  text-align: center;
+}
+
+.carousel {
+  margin: 20px 0;
+}
+
+.carousel div {
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.quick-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.quick-links a:hover {
+  background-color: #0056b3;
+}
+
+
+.about {
+  line-height: 1.6;
+}
+
+.about ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about h2 {
+  margin-top: 20px;
+}
+
+
+.academics {
+  line-height: 1.6;
+}
+
+.academics ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.academics h2 {
+  margin-top: 20px;
+}
+
+.admissions {
+  line-height: 1.6;
+}
+
+.admissions ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.admissions h2 {
+  margin-top: 20px;
+}
+
+.faculty {
+  line-height: 1.6;
+}
+
+.profile {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.profile h2 {
+  margin: 0;
+}
+
+.students {
+  line-height: 1.6;
+}
+
+.students ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.students h2 {
+  margin-top: 20px;
+}
+
+.contact {
+  line-height: 1.6;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.contact button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #0056b3;
+}
